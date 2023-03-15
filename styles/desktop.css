@@ -1,0 +1,48 @@
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: var(--very-dark-blue);
+        background-image: url('../images/bg-desktop.png');
+        background-position: bottom;
+        background-size: contain;
+        flex-direction: row;
+    }
+
+    header {
+        width: 25%;
+    }
+
+    main {
+        margin-top: 2.6em;
+        width: 50%;
+    }
+
+    main>p {
+        text-align: left;
+    }
+
+    #gb-left-box {
+        right: 0;
+        left: unset;
+        top: -50px;
+        width: 300px;
+    }
+
+    #gb-left-box>div {
+        position: relative;
+        margin-left: 6em;
+    }
+
+    .triangle {
+        position: absolute;
+        bottom: -20px;
+        right: 0;
+        width: 0px;
+        height: 0px;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid white;
+    }
+
+    header, main {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;    }
+}
